@@ -1,28 +1,35 @@
 <template>
   <div class="d-flex justify-space-around align-center flex-column flex-sm-row fill-height">
     <v-btn variant="flat">
-      Normal
+      color="blue"
+    >
+      Never
     </v-btn>
 
     <v-btn
       variant="flat"
-      color="secondary"
+      color="red"
     >
-      Secondary
+      Gonna
     </v-btn>
 
     <v-btn
       variant="flat"
-      color="error"
+      color="orange"
     >
-      Error
+      Give
     </v-btn>
 
     <v-btn
       variant="flat"
-      disabled
+      color="green"
     >
-      Disabled
+      You
+    <v-btn
+      variant="flat"
+      color="yellow"
+    >
+      Up
     </v-btn>
   </div>
 </template>
